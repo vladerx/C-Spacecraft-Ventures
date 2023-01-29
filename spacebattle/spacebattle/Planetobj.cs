@@ -59,7 +59,7 @@ namespace spacebattle
         {
             for (int i = planetimgsindxs[(level - 1) / 3][0]; i <= planetimgsindxs[(level - 1) / 3][1]; i++)
             {
-                planetimgs.Add(i ,Image.FromFile(@"C:\Users\fives\source\repos\spacebattle\spacebattle\planets\" + i.ToString() + ".png"));
+                planetimgs.Add(i ,Image.FromFile(@"C:\Users\\source\repos\spacebattle\spacebattle\planets\" + i.ToString() + ".png"));
             }
         }
 
