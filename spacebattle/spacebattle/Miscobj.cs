@@ -55,7 +55,7 @@ namespace spacebattle
         {
             for (int i = miscimgsindxs[(level - 1) / 3][0]; i <= miscimgsindxs[(level - 1) / 3][1]; i++)
             {
-                miscimgs.Add(i, Image.FromFile(@"C:\Users\fives\source\repos\spacebattle\spacebattle\misc\" + i.ToString() + ".png"));
+                miscimgs.Add(i, Image.FromFile(@"C:\Users\\source\repos\spacebattle\spacebattle\misc\" + i.ToString() + ".png"));
             }
         }
 
