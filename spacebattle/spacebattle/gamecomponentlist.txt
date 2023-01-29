@@ -1,0 +1,129 @@
+type: picturebox
+Name: mainbox
+BackColor: 38,38,38
+Location: 0, 0
+Size: 1443, 758
+
+type: picturebox
+Name: frame
+BackColor: 38,38,38
+Image: frame.png
+Location: 1449,2
+Size: 185,758
+
+type: label
+Name: coinsLabel
+BackColor: 123, 22, 255
+Location: 1520, 30
+Size: 0, 20
+
+type: picturebox
+Name: energybar
+BackColor: 255, 255, 192
+Location: 1511, 75
+Size: 100, 23
+
+type: picturebox
+Name: fuelbar
+BackColor: 255, 95, 101
+Location: 1511, 121
+Size: 100, 23
+
+type: picturebox
+Name: hpbar
+BackColor: 224, 224, 224
+Location: 1511, 167
+Size: 100, 23
+
+type: picturebox
+Name: distancebar
+BackColor: Yellow
+Location: 1514, 217
+Size: 100, 8
+
+type: picturebox
+Name: distancepointer
+BackColor: Red
+Location: 1514, 212
+Size: 5, 20
+
+type: picturebox
+Name: weaponbox
+BackColor: 123, 22, 255
+Image: defgundrop.png
+Location: 1484, 275
+Size: 30, 30
+SizeMode = AutoSize
+
+type: label
+Name: currweaplabel
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1520, 279
+Size: 64, 25
+Text = level 1
+
+type: label
+Name: critdmglab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1529, 347
+Size: 58, 25
+Text = 100%
+
+type: label
+Name: critchanlab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1529, 394
+Size: 39, 25
+Text = 0%
+
+type: label
+Name: durlab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1523, 440
+Size: 80, 25
+Text = 100/100
+
+type: label
+Name: fuelconlab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1529, 488
+Size: 42, 25
+Text = 100
+
+type: label
+Name: energyconlab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1529, 535
+Size: 23, 25
+Text = 5
+
+
+type: label
+Name: fireratelab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1529, 582
+Size: 23, 25
+Text = 5
+
+type: label
+Name: maxlvlweaplab
+BackColor: 123, 22, 255
+Font: Script MT Bold, 15.75pt, style=Bold
+Location: 1530, 628
+Size: 23, 25
+Text = 9
+
+type: picturebox
+Name: menubox
+BackColor: 123, 22, 255
+Image: menubutton.png
+Location: 1491, 695
+Size: 100, 30
+SizeMode = AutoSize
